@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="main.css" rel="stylesheet">
+
+    <!-- Script principal é carregado somente depois do body -->
+    <script type="text/javascript" src="dog-age.js" defer></script>
+
+</head>
+<body>
+    <div>
+
+        <h2 id="title">Deseja saber quantos anos o seu melhor amigo tem?</h2>
+        <h4>Disclaimer Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+        <form>
+
+            <input 
+                id="idade"
+                placeholder="Digite quantos anos"
+                type="number">
+
+            <div class="options">
+                <label>
+                    <input class="tipo-porte" type="radio" name="porte" value="pequeno" required>
+                    Pequeno
+                </label>
+
+            </div>
+            <div class="options">
+                <label>
+                    <input class="tipo-porte" type="radio" name="porte" value="médio" required>
+                     Médio
+                </label>
+            
+            </div>
+            <div class="options">
+                <label>
+                    <input class="tipo-porte" type="radio" name="porte" value="grande" required> 
+                    Grande
+                </label>
+            </div>    
+
+        </form>
+        
+        <button id="calculate">Calcular!</button>
+
+        <div id="results"></div>
+
+    </div>
+
+</body>
+</html>
