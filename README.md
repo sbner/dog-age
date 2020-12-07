@@ -1,5 +1,5 @@
 # dog-age
-### Calculadora de idade do seu melhor amigo
+### Calculadora de idade do seu melhor amigo :dog:
 
 ---
 
